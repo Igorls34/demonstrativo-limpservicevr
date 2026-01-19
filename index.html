@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Marca | Site Institucional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-overlay__spinner"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="navbar__container">
+            <a href="#" class="navbar__logo"><span id="brand-name"></span><span id="brand-highlight"></span></a>
+            
+            <button class="navbar__menu-toggle" id="mobile-menu" aria-label="Abrir menu">
+                <span class="navbar__menu-bar"></span>
+                <span class="navbar__menu-bar"></span>
+                <span class="navbar__menu-bar"></span>
+            </button>
+
+            <nav class="navbar__menu">
+                <ul class="navbar__list" id="nav-menu"></ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="navbar__overlay"></div>
+
+    <section id="home" class="hero">
+        <div class="hero__container">
+            <div class="hero__wrapper">
+                <div class="hero__content">
+                    <span class="hero__badge" id="hero-badge"></span>
+                    <h1 class="hero__title" id="hero-title"></h1>
+                    <p class="hero__description" id="hero-description"></p>
+                    <div class="hero__actions">
+                        <a href="#contato" class="btn btn--primary" id="hero-btn-primary"></a>
+                        <a href="#servicos" class="btn btn--secondary" id="hero-btn-secondary"></a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img class="hero__image-img" id="hero-img" src="" alt="Hero" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="services__container">
+            <div class="services__header">
+                <h2 class="services__title" id="services-title"></h2>
+                <p class="services__subtitle" id="services-subtitle"></p>
+            </div>
+            <div class="services__grid" id="services-grid"></div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about__container">
+            <div class="about__content">
+                <h2 class="about__title" id="about-title"></h2>
+                <p class="about__description" id="about-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials">
+        <div class="testimonials__container">
+            <h2 class="testimonials__title" id="testimonials-title"></h2>
+            <p class="testimonials__subtitle" id="testimonials-subtitle"></p>
+            <div class="testimonials__grid" id="testimonials-grid"></div>
+        </div>
+    </section>
+
+    <section id="empresas" class="companies">
+        <div class="companies__container">
+            <h2 class="companies__title" id="companies-title"></h2>
+            <p class="companies__subtitle" id="companies-subtitle"></p>
+            <div class="companies__grid" id="companies-grid"></div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="contact__container">
+            <h2 class="contact__title" id="contact-title"></h2>
+            <form class="contact__form" id="contact-form">
+                <div class="contact__fields" id="form-fields"></div>
+                <button type="submit" class="btn btn--primary btn--fullwidth" id="contact-submit"></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                    <a href="#" class="footer__logo"><span id="footer-brand-name"></span><span id="footer-brand-highlight"></span></a>
+                    <div class="footer__social" id="footer-social" aria-hidden="true"></div>
+                    <p class="footer__copyright" id="footer-copyright"></p>
+                </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/551234567890?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços." 
+       class="whatsapp" 
+       id="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       title="Fale conosco no WhatsApp">
+        <i data-lucide="brand-whatsapp"></i>
+    </a>
+
+    <!-- Lead Capture Modal -->
+    <div class="modal" id="lead-modal" aria-hidden="true">
+        <div class="modal__overlay" id="lead-modal-overlay"></div>
+        <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="lead-modal-title">
+            <button class="modal__close" id="lead-modal-close" aria-label="Fechar">×</button>
+            <h3 class="modal__title" id="lead-modal-title">Quer conversar?</h3>
+            <p class="modal__subtitle">Deixe seu contato e vamos agendar um papo rápido.</p>
+            <form class="modal__form" id="lead-form">
+                <div class="modal__field">
+                    <label for="lead-name">Nome</label>
+                    <input id="lead-name" name="name" type="text" placeholder="Seu nome" required />
+                </div>
+                <div class="modal__field">
+                    <label for="lead-email">E-mail</label>
+                    <input id="lead-email" name="email" type="email" placeholder="seu@email.com" required />
+                </div>
+                <div class="modal__field">
+                    <label for="lead-message">Mensagem (opcional)</label>
+                    <textarea id="lead-message" name="message" rows="3" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary" id="lead-submit">Quero falar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

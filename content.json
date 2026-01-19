@@ -1,0 +1,156 @@
+{
+  "brand": {
+    "name": "MINHA",
+    "highlight": "MARCA"
+  },
+  "navigation": {
+    "menu": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Serviços", "href": "#servicos" },
+      { "label": "Sobre", "href": "#sobre" },
+      { "label": "Fale Conosco", "href": "#contato", "class": "btn-nav" }
+    ]
+  },
+  "hero": {
+    "badge": "Novo Lançamento",
+    "title": "Transforme sua Ideia em Realidade Digital",
+    "description": "Apresente seu negócio com um design que se adapta à sua identidade. Escolha o estilo que mais combina com você.",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+    "cta_primary": {
+      "text": "Começar Agora",
+      "href": "#contato"
+    },
+    "cta_secondary": {
+      "text": "Saber Mais",
+      "href": "#servicos"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções completas para o seu negócio",
+    "items": [
+      {
+        "icon": "palette",
+        "title": "Design UI/UX",
+        "description": "Interfaces intuitivas e belas focadas na melhor experiência para o seu usuário final.",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop"
+      },
+      {
+        "icon": "code",
+        "title": "Desenvolvimento",
+        "description": "Sites rápidos, seguros e otimizados para todos os dispositivos móveis e desktops.",
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
+      },
+      {
+        "icon": "rocket",
+        "title": "Performance",
+        "description": "Estratégias de otimização para colocar seu site no topo dos motores de busca.",
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "Somos uma agência focada em resultados. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "subtitle": "O que nossos clientes dizem sobre nós",
+    "items": [
+      {
+        "name": "João Silva",
+        "position": "CEO da TechStart",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+        "text": "Excelente trabalho! A equipe entregou um projeto perfeito e dentro do prazo. Recomendo muito!",
+        "rating": 5
+      },
+      {
+        "name": "Maria Santos",
+        "position": "Gerente de Marketing",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+        "text": "Profissionais dedicados e atentivos. Transformaram nossa visão em realidade digital.",
+        "rating": 5
+      },
+      {
+        "name": "Pedro Oliveira",
+        "position": "Empresário",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+        "text": "Melhor investimento que fizemos este ano. Aumentou nossas vendas em 40%!",
+        "rating": 5
+      }
+    ]
+  },
+  "companies": {
+    "title": "Empresas que Confiam em Nós",
+    "subtitle": "Parceiros de sucesso",
+    "items": [
+      {
+        "name": "Company A",
+        "logo": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&h=100&fit=crop"
+      },
+      {
+        "name": "Company B",
+        "logo": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=200&h=100&fit=crop"
+      },
+      {
+        "name": "Company C",
+        "logo": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&h=100&fit=crop"
+      },
+      {
+        "name": "Company D",
+        "logo": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&h=100&fit=crop"
+      },
+      {
+        "name": "Company E",
+        "logo": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&h=100&fit=crop"
+      },
+      {
+        "name": "Company F",
+        "logo": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=200&h=100&fit=crop"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Vamos Conversar?",
+    "form_fields": [
+      {
+        "id": "name",
+        "label": "Nome",
+        "type": "text",
+        "placeholder": "Seu nome",
+        "required": true
+      },
+      {
+        "id": "email",
+        "label": "E-mail",
+        "type": "email",
+        "placeholder": "seu@email.com",
+        "required": true
+      },
+      {
+        "id": "message",
+        "label": "Mensagem",
+        "type": "textarea",
+        "placeholder": "Como podemos ajudar?",
+        "rows": 4,
+        "required": true
+      }
+    ],
+    "submit_button": "Enviar Mensagem"
+  },
+  "footer": {
+    "copyright": "© 2026 Todos os direitos reservados."
+  },
+  "social": {
+    "whatsapp": {
+      "phone": "5524998632047",
+      "message": "Olá! Gostaria de saber mais sobre os serviços."
+    },
+    "facebook": "https://www.facebook.com/sua-pagina",
+    "instagram": "https://www.instagram.com/seu-usuario",
+    "linkedin": "https://www.linkedin.com/company/sua-empresa",
+    "twitter": "https://twitter.com/seu_usuario",
+    "youtube": "https://www.youtube.com/channel/seu-canal"
+  }
+}
+
